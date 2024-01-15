@@ -1,0 +1,172 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4caf50;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.memo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.memo:hover {
+    transform: translateY(-5px);
+}
+
+.memo h3 {
+    color: #333;
+}
+
+.memo p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.memo a {
+    display: block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.memo a:hover {
+    background-color: #45a049;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+form:hover {
+    transform: translateY(-5px);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px;
+}
+
+
+section {
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+border: 1px solid #ddd; /* Thêm border vào section */
+background-color: #f9f9f9; /* Thêm background color */
+border-radius: 8px; /* Thêm bo tròn cho góc section */
+}
+
+#tab1{
+width: 100%;
+padding-right: 20px;
+display: flex;
+flex-direction: column;
+}
+#tab1 .memo{
+width: 100%;
+}
+.memo_title {
+    display: flex;
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center; /* Căn giữa dọc */
+    height: 100px; /* Điều chỉnh chiều cao nếu cần thiết */
+}
+
+.memo_title h2 {
+    color: #333;
+    margin-bottom: 20px; /* Khoảng cách với phần nội dung bên dưới */
+}
+.memo_title h2 {
+    color: #333;
+    text-align: center; /* Căn giữa ngang */
+    margin-bottom: 20px; /* Khoảng cách với phần nội dung bên dưới */
+}
